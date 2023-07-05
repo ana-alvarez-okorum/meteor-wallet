@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/local_collection_driver.js",
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/collection.js",
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/connection_options.js",
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/doc_fetcher.js",
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/mongo_driver.js",
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/mongo_utils.js",
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/observe_multiplex.js",
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/oplog_observe_driver.js",
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/oplog_tailing.js",
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/oplog_v2_converter.js",
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/polling_observe_driver.js",
+        "/Users/oktdesk/.meteor/packages/mongo/1.16.3/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/Users/oktdesk/.meteor/packages/reactive-var/1.0.12/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/Users/oktdesk/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/Users/oktdesk/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/Users/oktdesk/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/Users/oktdesk/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/Users/oktdesk/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/Users/oktdesk/.meteor/packages/ecmascript/0.16.4/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/Users/oktdesk/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/Users/oktdesk/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/Users/oktdesk/.meteor/packages/hot-module-replacement/0.5.2/web.browser/hot-api.js",
+        "/Users/oktdesk/.meteor/packages/hot-module-replacement/0.5.2/web.browser/client.js",
+        "/Users/oktdesk/.meteor/packages/hot-module-replacement/0.5.2/web.browser/server.js"
+      ],
+      "meteor/react-meteor-data": [
+        "/Users/oktdesk/.meteor/packages/react-meteor-data/2.6.0/web.browser/index.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
