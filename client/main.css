@@ -2,16 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 html {
   
-  color: black;
-  padding: 0;
-  margin: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  
-}
-
-body {
   font-family: 'Belanosima', sans-serif;
+  
 }

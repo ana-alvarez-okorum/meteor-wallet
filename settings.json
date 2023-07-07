@@ -1,0 +1,8 @@
+{
+    "packages": {
+      "quave:email-postmark": {
+        "from": "ana.alvarez@okorum.com",
+        "apiToken": "4d96c9cc-10da-42ce-a11d-e68245cb12e7"
+      }
+    }
+  }

@@ -1,0 +1,17 @@
+import { Meteor } from 'meteor/meteor';
+import { ContactsCollection } from "../Collections/ContactsCollection";
+
+Meteor.publish('myContacts', function publishContacts() {
+  const { userId } = this;
+  if (!userId) {
+    throw new Meteor.Error('Access denied');
+  }
+  return ContactsCollection.find(
+    { userId, archived: { $ne: true } },
+    {
+      fields: {
+        createdAt: 0,
+      },
+    }
+  );
+});

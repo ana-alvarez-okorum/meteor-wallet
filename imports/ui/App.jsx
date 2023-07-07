@@ -1,16 +1,23 @@
 import React from 'react';
-import {ContactForm} from "./ContactForm";
-import {ContactList} from "./ContactList";
-import {Header} from "./Header";
+import { BrowserRouter } from 'react-router-dom';
+
+import { AlertProvider, Alert } from 'meteor/quave:alert-react-tailwind';
+
+import { Header } from './Header';
+import { Router } from './Router';
 
 export const App = () => (
-  <div>
-    <Header />
-    <div className="min-h-full">
-      <div className="max-w-4xl mx-auto p-2">
-        <ContactForm />
-        <ContactList />
+  <BrowserRouter>
+    <AlertProvider>
+      <div>
+        <Header />
+        <Alert />
+        <div className="min-h-full">
+          <div className="mx-auto max-w-4xl p-2">
+            <Router />
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+    </AlertProvider>
+  </BrowserRouter>
 );
