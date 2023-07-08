@@ -4,7 +4,7 @@ import { Accounts } from 'meteor/accounts-base';
 import { RoutePaths } from './RoutePaths';
 import { useNavigate } from 'react-router-dom';
 import { ErrorAlert } from './components/ErrorAlert';
-
+//
 export const Access = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
