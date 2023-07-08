@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 import { ContactsCollection } from '../api/Collections/ContactsCollection';
 import { useSubscribe, useFind } from 'meteor/react-meteor-data';
 import { Loading } from './components/Loading';
-
+//Comentario
 
 export const ContactList = () => {
   const isLoading = useSubscribe('myContacts');
