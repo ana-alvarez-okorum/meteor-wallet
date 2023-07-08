@@ -110,7 +110,7 @@ export const Access = () => {
           >
             {isSignUp
               ? 'If you already have an account, click here'
-              : "If you don't an account, click here"}
+              : "If you don't have an account, click here"}
           </a>
         </div>
 
